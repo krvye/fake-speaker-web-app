@@ -1,0 +1,136 @@
+body{
+  background-color:#f4f4f4;
+  font:15px Lucida COnsole;
+  margin:0;
+}
+
+.container{
+  width:75%;
+  margin:auto;
+  overflow:hidden;
+}
+
+
+a:link{
+  color:#333;
+}
+
+a:visited{
+  color:#333;
+}
+
+a:hover{
+  color:lightblue;
+}
+
+header{
+  background-color:#fff;
+}
+
+nav{
+  background-color:#f4f4f4;
+}
+
+nav ul{
+  margin-top:10px;
+  padding:0;
+}
+
+nav li{
+  display:inline;
+  padding-right:20px;
+}
+
+nav .current{
+  background-color:coral;
+  color:white;
+  padding:15px 12px;
+}
+
+nav a{
+  text-decoration:none;
+  text-transform:uppercase;
+}
+
+#showcase{
+  min-height:400px;
+  background:url('../img/showcase.jpg') no-repeat 70px -400px;
+  text-align:center;
+  color:#fff;
+}
+
+#showcase h1{
+  margin-top:100px;
+  font-size:55px;
+  margin-bottom:10px;
+}
+
+#showcase p{
+  font-size:20px;
+}
+
+#boxes{
+  margin-top:20px;
+}
+
+#boxes .box{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+
+#boxes .box img{
+  width:200px;
+}
+
+#aboutus{
+  float:left;
+  width:70%;
+}
+
+#sidebar{
+  float:right;
+  width:30%;
+  margin-bottom:15px;
+}
+
+.colored{
+  background-color:#333;
+  color:#fff;
+  padding:10px;
+}
+
+.ty{
+  text-align:center;
+  padding:20px;
+  margin:30px;
+}
+
+.groupform{
+  padding:10px;
+}
+
+#feedback{
+  font-size:15px;
+  margin:15px 0 15px 250px;
+  padding:50px;
+  width:100%;
+}
+
+.feedb{
+  background-color:#333;
+  color:#fff;
+  width:40%;
+}
+
+.feedb textarea{
+  padding:40px 20px 40px 20px;
+}
+
+footer{
+  background-color:#333;
+  color:white;
+  text-align:center;
+  padding:15px;
+}
